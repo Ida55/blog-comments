@@ -3,7 +3,6 @@ import React from 'react';
 
 const CommentDetail = (props) => {
     return ( 
-
         <div className>
             <a href="/" className="avatar">
                 <img src={props.avatar} alt="avatar"/>
@@ -18,8 +17,6 @@ const CommentDetail = (props) => {
         <div className="text">{props.comment}</div>
         </div>
         </div>
-
-
      );
 }
  
